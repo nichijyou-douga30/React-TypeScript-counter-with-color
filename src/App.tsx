@@ -13,7 +13,7 @@ const App: React.FC = () => {
             Math.floor((Math.random()*55) + 200)
         ];
         setCount(prev => prev + 1);
-	    setCount_col(new_color);
+        setCount_col(new_color);
     }, []);
 
  
@@ -24,7 +24,7 @@ const App: React.FC = () => {
             Math.floor((Math.random()*55) + 200)
         ];
         setCount(prev => prev - 1);
-	    setCount_col(new_color);
+        setCount_col(new_color);
     }, []);
 
     const style = {
