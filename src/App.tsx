@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react';
+import './App.css';
 
 const App: React.FC = () => {
     const [ count, setCount ] = useState<number>(0);
